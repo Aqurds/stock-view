@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" exact Component={StockList} />
-      <Route path="/single-stock" Component={SingleStock} />
+      <Route path="/single-stock/:id" Component={SingleStock} />
     </Routes>
   );
 }
