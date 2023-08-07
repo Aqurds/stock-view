@@ -1,7 +1,9 @@
-const SingleStock = () => {
+import '../styles/single-stock.css';
+
+const SingleStock = ({stock}) => {
   return (
-    <div>
-      Single Stock
+    <div className="single-stock">
+      {stock}
     </div>
   )
 };
