@@ -9,7 +9,7 @@ const fetchStockSymbols = createAsyncThunk(
   'stocks/getchStockSymbols',
   async () => {
     const response = await axios.get(`${API_BASE_URL}${API_SYMBOL_EXT}?apikey=${API_KEY}`);
-    console.log(response.data);
+    // console.log(response.data);
     return response.data;
   }
 );
