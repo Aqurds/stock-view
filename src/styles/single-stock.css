@@ -1,3 +1,7 @@
+.stock-details {
+  width: 100%;
+}
+
 .single-stock {
   background: green;
   width: 15%;
@@ -7,5 +11,28 @@
   cursor: pointer;
   color: white;
   font-size: 28px;
+  font-weight: 900;
+}
+
+.stock-data-by-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.stock-header {
+  text-align: center;
+}
+
+.stock-date {
+  width: 100%;
+  text-align: center;
+}
+
+.go-back {
+  text-decoration: none;
+  font-size: 24px;
   font-weight: 900;
 }
