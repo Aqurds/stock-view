@@ -1,0 +1,11 @@
+.single-stock {
+  background: green;
+  width: 15%;
+  float: left;
+  border: 5px solid white;
+  padding: 50px 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
+  font-weight: 900;
+}
