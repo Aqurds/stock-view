@@ -2,6 +2,8 @@ import '../styles/single-stock.css';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from "axios";
+import Header from './Header';
+import { IoChevronBack } from 'react-icons/io5'
 
 const API_KEY = '694e1015c577e6802d8f0e4f00ea92ef';
 const API_BASE_URL = 'https://financialmodelingprep.com/api/v3/';
@@ -24,17 +26,20 @@ const SingleStock = () => {
   return (
     <div className="stock-details">
       <a href='/' className='go-back'>
-        &lt;
+        <IoChevronBack className='go-back-icon'/>
       </a>
+      <Header />
       <h2 className='stock-header'>
-        Stock name: {stockName.id}
+        Stock name: <br/>
+        <span className='stock-name'>{stockName.id}</span>
       </h2>
-        { !singleStockData && <p>Loading ...</p> }
+        { !singleStockData && <p className='stock-loading'>Loading ...</p> }
         { singleStockData && singleStockData.map((stockData) => {
           return(
             <div key={stockData.date} className='stock-data-by-date'>
               <p className='stock-date'>
-                Reporting date: {stockData.date}
+                Reporting date: <br/>
+                <span className='stock-date-speci'>{stockData.date}</span>
               </p>
               <div className='stock-details'>
                 <div>
@@ -47,7 +52,7 @@ const SingleStock = () => {
                   <p>Gross Profile: {stockData.grossProfit}</p>
                   <p>Net Income: {stockData.netIncome}</p>
                   <p>Final Link :  
-                    <a target='_blank' href={stockData.finalLink}>
+                    <a className='final-link' target='_blank' href={stockData.finalLink}>
                       Link
                     </a>
                   </p>

@@ -1,0 +1,27 @@
+.header-wrapper {
+  background: #fe5294;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 30px;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.header-icon-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-icon {
+  font-size: 28px;
+}
