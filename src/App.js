@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './styles/App.css';
 import { Routes, Route } from 'react-router-dom';
-import StockList from './components/StockList';
-import SingleStock from './components/SingleStock';
+import StockList from './components/StockList.jsx';
+import SingleStock from './components/SingleStock.jsx';
 
 function App() {
   return (

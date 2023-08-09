@@ -1,6 +1,5 @@
-import axios from "axios";
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-
+import axios from "axios";
 const API_KEY = '694e1015c577e6802d8f0e4f00ea92ef';
 const API_BASE_URL = 'https://financialmodelingprep.com/api/v3/';
 const API_SYMBOL_EXT = 'financial-statement-symbol-lists';

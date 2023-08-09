@@ -4,6 +4,14 @@
   color: white;
   margin: 0;
   padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock-view-logo {
+  font-size: 38px;
+  margin-right: 10px;
 }
 
 .header-text {

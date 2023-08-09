@@ -19,6 +19,7 @@ const StockList = () => {
   }, [])
 
   useEffect(() => {
+    setFilteredStockSymbols([])
     const newStockSymbols = stockSymbols.filter((stock) => {
       return stock.includes(searchQuery.trim().toUpperCase())
     })
@@ -47,11 +48,11 @@ const StockList = () => {
         { searchQuery ? (
            filteredStockSymbols && filteredStockSymbols.map((stock) => {
           return (
-            <div className="single-stock">
-              <a href={`/single-stock/${stock}`} key={stock}>
+            <div className="single-stock" key={stock}>
+              <a href={`/single-stock/${stock}`}>
                 <IoArrowForwardCircleOutline className="go-single-stock" />
               </a>
-              <a href={`/single-stock/${stock}`} key={stock}>
+              <a href={`/single-stock/${stock}`}>
                 {stock}
               </a>
             </div>
@@ -60,11 +61,11 @@ const StockList = () => {
         ) : (
           stockSymbols && stockSymbols.map((stock) => {
           return (
-            <div className="single-stock">
-              <a href={`/single-stock/${stock}`} key={stock}>
+            <div className="single-stock" key={stock}>
+              <a href={`/single-stock/${stock}`}>
                 <IoArrowForwardCircleOutline className="go-single-stock" />
               </a>
-              <a href={`/single-stock/${stock}`} key={stock}>
+              <a href={`/single-stock/${stock}`}>
                 {stock}
               </a>
             </div>
