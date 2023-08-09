@@ -29,6 +29,4 @@ describe('StockList component', () => {
 
     expect(container).toMatchSnapshot();
   });
-
-  // Add more test cases as needed
 });
