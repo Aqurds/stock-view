@@ -14,12 +14,22 @@ const SingleStock = () => {
   const stockName = useParams();
   // console.log(stockName)
   const [singleStockData, setSingleStockData] = useState(null);
+  const [apiErrorMessage, setApiErrorMessage] = useState('');
+  const [dataLoading, setDataLoading] = useState(true)
 
   useEffect(() => {
     async function fetchData() {
+      try {
         const response = await axios.get(`${API_BASE_URL}${INCOME_EXT}/${stockName.id}?apikey=${API_KEY}`);
         console.log(response.data);
         setSingleStockData(response.data);
+        setApiErrorMessage('');
+        setDataLoading(false);
+      } catch (error) {
+        console.log(error.response.data['Error Message'])
+        setApiErrorMessage(error.response.data['Error Message'])
+        setDataLoading(false);
+      }
     }
     fetchData();
   }, [])
@@ -33,7 +43,8 @@ const SingleStock = () => {
         Stock name: <br/>
         <span className='stock-name'>{stockName.id}</span>
       </h2>
-        { !singleStockData && <p className='stock-loading'>Loading ...</p> }
+        { dataLoading && <p className='stock-loading'>Loading ...</p> }
+        { apiErrorMessage && <p className='stock-loading'>{apiErrorMessage}<br/>Please go back and check another stock. Sorry for the inconvenience!</p> }
         { singleStockData && singleStockData.map((stockData) => {
           return(
             <div key={stockData.date} className='stock-data-by-date'>
