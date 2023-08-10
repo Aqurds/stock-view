@@ -116,7 +116,7 @@ Clone this repository to your desired folder:
 
 ```
   git clone https://github.com/Aqurds/stock-view.git
-  cd stockbiew
+  cd stock-view
 ```
 
 ### Install
