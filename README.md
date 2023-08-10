@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./src/assets/logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <img src="readme_logo.png" alt="logo" width="140"  height="auto" />
+  <br/><br/><br/>
 
-  <h3><b>BookStore</b></h3>
+  <h3><b>StockView</b></h3>
 
 </div>
 
@@ -16,7 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -31,10 +31,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BookStore <a name="about-project"></a>
+# 📖 StockView <a name="about-project"></a>
 
 
-**BookStore** The app for organizing personal book list. Add, remove & track reading progress, bookmark are some key features in this application.
+**StockView** This project aims to provide a user-friendly and informative platform for exploring and analyzing financial data of publicly traded stocks. The application offers an intuitive interface that allows users to search for specific stocks and access detailed information such as income statements, cash flow statements, and balance sheets.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,6 +48,21 @@
     <li>CSS</li>
     <li>Javascript</li>
     <li>React</li>
+    <li>React Redux Toolkit</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Deployment</summary>
+  <ul>
+    <li>Netlify</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Testing</summary>
+  <ul>
+    <li>Jest</li>
   </ul>
 </details>
 
@@ -57,18 +72,18 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Add book**
-- **Add book category**
-- **Delete book**
+- **View Stock**
+- **Search Stock**
+- **View Stock details**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://aqurds.github.io/mv-bl/)
+- [Live Demo Link](https://clinquant-biscuit-047db3.netlify.app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -100,8 +115,8 @@ Clone this repository to your desired folder:
 
 
 ```
-  git https://github.com/Aqurds/bookstore
-  cd bookstore
+  git clone https://github.com/Aqurds/stock-view.git
+  cd stock-view
 ```
 
 ### Install
@@ -132,9 +147,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add tracking of reading progress**
-- **Bookmark book chapter**
-- **User history of reading**
+- **Add Balance Sheet of Stock**
+- **Bookmark Stock**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +158,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Aqurds/bookstore/issues).
+Feel free to check the [issues page](https://github.com/Aqurds/stock-view/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
