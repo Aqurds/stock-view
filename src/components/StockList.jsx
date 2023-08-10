@@ -49,10 +49,10 @@ const StockList = () => {
            filteredStockSymbols && filteredStockSymbols.map((stock) => {
           return (
             <div className="single-stock" key={stock}>
-              <a href={`/single-stock/${stock}`}>
+              <a href={`/singlestock/${stock}`}>
                 <IoArrowForwardCircleOutline className="go-single-stock" />
               </a>
-              <a href={`/single-stock/${stock}`}>
+              <a href={`/singlestock/${stock}`}>
                 {stock}
               </a>
             </div>
@@ -62,10 +62,10 @@ const StockList = () => {
           stockSymbols && stockSymbols.map((stock) => {
           return (
             <div className="single-stock" key={stock}>
-              <a href={`/single-stock/${stock}`}>
+              <a href={`/singlestock/${stock}`}>
                 <IoArrowForwardCircleOutline className="go-single-stock" />
               </a>
-              <a href={`/single-stock/${stock}`}>
+              <a href={`/singlestock/${stock}`}>
                 {stock}
               </a>
             </div>
