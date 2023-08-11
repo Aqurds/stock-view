@@ -17,6 +17,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Presentation Demo](#presentation-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -84,6 +85,14 @@
 - [Live Demo Link](https://clinquant-biscuit-047db3.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Presentation Video <a name="presentation-demo"></a>
+
+- [Presentation Video](https://www.loom.com/share/973e2580fcbd443fa789344f4a24b65c?sid=41a46d29-d237-4e36-b34e-90d2113e996a)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- GETTING STARTED -->
