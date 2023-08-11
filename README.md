@@ -187,6 +187,8 @@ If you like this project please send a welcome message on Twitter and let's have
 
 I would like to thank my wife, who always inspires me to be a better software engineer. Also thanks to Microverse for awesome support.
 
+Design credit (https://www.behance.net/sakwadesignstudio)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
