@@ -158,6 +158,8 @@ Clone this repository to your desired folder:
 
 - **Add Balance Sheet of Stock**
 - **Bookmark Stock**
+- **Track Stock price changes**
+- **Alert on Target price**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
