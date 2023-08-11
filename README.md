@@ -158,6 +158,8 @@ Clone this repository to your desired folder:
 
 - **Add Balance Sheet of Stock**
 - **Bookmark Stock**
+- **Track Stock price changes**
+- **Alert on Target price**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,6 +186,8 @@ If you like this project please send a welcome message on Twitter and let's have
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my wife, who always inspires me to be a better software engineer. Also thanks to Microverse for awesome support.
+
+Design credit (https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
